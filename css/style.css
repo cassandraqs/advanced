@@ -1,0 +1,128 @@
+body {
+	background-image: url(background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+header {
+	font-family: 'Montserrat', sans-serif;
+}
+.navbar-inverse {
+
+    background-color: rgba(47, 18, 18, 0.75);
+    border-color: #080808;
+    background-image: none;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+	background-color: #350E0E;
+}
+.glyphicon {
+	color: white;
+	padding-top: 15px;
+	padding-right: 15px;
+}
+.site-title {
+	margin-top: 300px;
+}
+.site-title {
+	color: white;
+	text-align: center;
+	font-size: 30px;
+}
+footer {
+	background-color: rgba(47, 18, 18, 0.75);
+	height: 50px;
+	width: 100%;
+	bottom: 0;
+	position: fixed;
+}
+.footer-content {
+	color: white;
+	margin-top: 13px;
+}
+.copyright {
+	color: #B9B4B4;
+}
+.social {
+	margin-left: 10px;
+}
+.landing {
+	display: block;
+	text-align: center;
+	padding-top: 20%;
+
+
+}
+h1, h4 {
+	color: white;
+}
+h4 {
+	padding-left: 15%;
+	padding-right: 15%;
+}
+
+button {
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+}
+.animate, .btn, .btn-border-o:before, .btn-border-o:after, .btn-border:before, .btn-border:after, .btn-border-rev-o:before, .btn-border-rev-o:after, .btn-border-rev:before, .btn-border-rev:after, .btn-fill-vert-o:before, .btn-fill-vert-o:after, .btn-fill-vert:before, .btn-fill-vert:after, .btn-fill-horz-o:before, .btn-fill-horz-o:after, .btn-fill-horz:before, .btn-fill-horz:after {
+  -webkit-transition: all 0.3s;
+          transition: all 0.3s;
+}
+.btn {
+  display: inline-block;
+  line-height: 35px;
+  margin: 8px;
+  padding: 0 15px;
+  font-size: 15px;
+  position: relative;
+  opacity: .999;
+  border-radius: 3px;
+}
+.btn-fill-vert-o {
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  overflow: hidden;
+}
+.btn-fill-vert-o:before, .btn-fill-vert-o:after {
+  content: '';
+  width: 100%;
+  height: 0;
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  z-index: -1;
+}
+.btn-fill-vert-o:before {
+  top: 50%;
+}
+.btn-fill-vert-o:after {
+  bottom: 50%;
+}
+.btn-fill-vert-o:hover {
+  color: #fff;
+}
+.btn-fill-vert-o:hover:before, .btn-fill-vert-o:hover:after {
+  height: 50%;
+  opacity: 1;
+}
+.btn-fill-vert-o.btn-red:before, .btn-fill-vert-o.btn-red:after {
+  background-color: #e74c3c;
+}
+.btn-fill-vert-o.btn-red:hover {
+  border-color: #e74c3c;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
