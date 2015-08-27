@@ -56,6 +56,7 @@ h1, h4 {
 	color: white;
 }
 h4 {
+	padding-top: 45px;
 	padding-left: 15%;
 	padding-right: 15%;
 }
@@ -114,10 +115,17 @@ button {
   border-color: #e74c3c;
 }
 
-
-
-
-
+@media (max-width: 916px) {
+	h4 {
+		display: none;
+	}
+	.landing {
+		padding-top: 40%;
+	}
+	.copyright {
+		display: none;
+	}
+}
 
 
 
