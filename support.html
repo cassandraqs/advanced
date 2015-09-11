@@ -11,7 +11,7 @@
 
 	<title>ADVANCED</title>
 
-	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css'>
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.4/material.indigo-pink.min.css">
@@ -46,7 +46,7 @@
 
 					</div>
 					<div class="navbar-collapse collapse">
-						<ul class="nav navbar-nav navbar-right">
+						<ul class="nav navbar-nav navbar-right menu">
 							<li><a href="index.html">Home</a></li>
 							<li><a href="about.html">About</a></li>
 							<li><a href="events.html">Events</a></li>
@@ -54,9 +54,8 @@
 							<li><a href="outreach.html">Outreach</a></li>
 							<li class="active"><a href="support.html">Support</a></li>
 							<li><a href="contact.html">Contact</a></li>
-							<li><span class="glyphicon glyphicon-play" aria-hidden="true"></span></li>
-							<li><span class="glyphicon glyphicon-pause" aria-hidden="true"></span></li>
-							<li><span class="glyphicon glyphicon-stop" aria-hidden="true"></span></li>
+							<li><button type="button" class="btn audio-control play"><span class="glyphicon glyphicon-play"></span></button></li>
+							<li><button type="button" class="btn audio-control pause"><span class="glyphicon glyphicon-pause"></span></button></li>
 						</ul>
 					</div>
 				</div>
@@ -69,10 +68,9 @@
 	<div class="container">
 		<div class="row support_letter">
 
-			<p>
-				<strong>Your support would make a huge difference in helping our organization realize its ambitious dreams for this production. Donations at this time will help pay for an orchestra, secure rehearsal space, and provide materials and training for our new chorus members.</strong>
-				<a href="https://www.networkforgood.org/donation/MakeDonation.aspx?ORGID2=311224121&vlrStratCode=G77h7yhoDkWYFHuML3S2wu0%2fYhySHxly0KxCNqdFDOiksWgXjuec3j6Y3ULE54Nx">Click here to make your tax-deductible donation now!</a>
-			</p>
+			<p class="text-center"><strong>Your support would make a huge difference in helping our organization realize its ambitious dreams for this production. Donations at this time will help pay for an orchestra, secure rehearsal space, and provide materials and training for our new chorus members.</strong></p>
+			<h4 class="text-center support_btn"><a class="support_link" href="https://www.networkforgood.org/donation/MakeDonation.aspx?ORGID2=311224121&vlrStratCode=G77h7yhoDkWYFHuML3S2wu0%2fYhySHxly0KxCNqdFDOiksWgXjuec3j6Y3ULE54Nx" target="blank">Click here to make your tax-deductible donation now!</a></h4>
+
 			<blockquote>
 				<p>Dear friends,</p>
 				<p>When I sing Tosca, the story of a passionate and resolute diva who has dedicated her life to art and love, my desire is to rouse my listeners to live purposefully in pursuit of their dreams. When I fell in love with opera as a teenager, my life was changed for the better. The experiences of performing and seeing live opera are often limited to the lucky few who are introduced to the art form at a young age or can afford to spend hundreds of dollars on a ticket to attend a major production.</p>
@@ -124,3 +122,4 @@
   		});
 		});
 	</script>
+	<script src="audio.js"></script>
