@@ -1,8 +1,10 @@
+/*INDEX*/
 body {
 	background-image: url(background.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+
 header {
 	font-family: 'Montserrat', sans-serif;
 }
@@ -19,6 +21,7 @@ header {
 	color: white;
 	padding-top: 15px;
 	padding-right: 15px;
+	padding-left: 15px;
 }
 .site-title {
 	margin-top: 300px;
@@ -52,6 +55,91 @@ footer {
 
 
 }
+/*ABOUT*/
+
+.about {
+	background-image: url(letter.jpg);
+}
+.introduction {
+	margin-top: 4%;
+}
+.Cheryl {
+	border-radius: 119.5px;
+}
+.intro-advance {
+	margin-top: 24px;
+	margin-bottom: 50px;
+}
+
+/*MEDIA*/
+.medias {
+	background-image: url(letter.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.videos {
+	margin-top: 5%;
+	margin-bottom: 50px;
+}
+iframe {
+	margin-bottom: 35px;
+}
+
+/*OUTREACH*/
+.outreach {
+	background-image: url(letter.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.outreach_description {
+	margin-top: 10%;
+
+}
+
+/*SUPPORT*/
+
+.support {
+	background-image: url(letter.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.support_letter {
+	margin-top: 7%;
+
+}
+blockquote {
+	border-left: 0px;
+}
+cite {
+	padding-bottom: 6%;
+}
+
+/*CONTACT*/
+
+.contact {
+	background-image: url(letter.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.contact_info {
+	margin-top: 5%;
+	padding-bottom: 6%;
+}
+#message {
+	height: 300px;
+}
+
+.red {
+  border: 3px solid #d36e6e;
+  background: #ea8181;
+}
+
+.red:hover {
+  background: #d36e6e;
+}
+
+/*FONTS*/
+
 h1, h4 {
 	color: white;
 }
@@ -60,6 +148,40 @@ h4 {
 	padding-left: 15%;
 	padding-right: 15%;
 }
+p, small, h3 {
+	color: #4B4545;
+}
+
+p {
+	font-size: 15px;
+}
+    /* Glyph, by Harry Roberts */
+
+hr {
+    padding: 0;
+    border: none;
+    border-top: medium double #4B4545;
+    color: #4B4545;
+    text-align: center;
+}
+
+/*CALENDAR*/
+.events {
+	background-image: url(letter.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.calendar {
+	padding-top: 4%;
+	margin-bottom: 50px;
+}
+
+
+
+
+
+
 
 button {
   background-color: transparent;
@@ -109,11 +231,10 @@ button {
   opacity: 1;
 }
 .btn-fill-vert-o.btn-red:before, .btn-fill-vert-o.btn-red:after {
-  background-color: #e74c3c;
+  background-color: rgb(255,64,129);
 }
 .btn-fill-vert-o.btn-red:hover {
-  border-color: #e74c3c;
-}
+  border-color: rgb(255,64,129);
 
 @media (max-width: 916px) {
 	h4 {
