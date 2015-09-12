@@ -23,7 +23,10 @@ ul.menu {
 
 .btn.audio-control {
 	border: solid #947D7D 1px;
+	margin-top: 12px;
 	margin-bottom: 0;
+	padding: 0 5px 0 5px;
+	line-height: 25px;
 }
 .glyphicon {
 	color: white;
@@ -121,7 +124,7 @@ iframe {
 	background-size: cover;
 }
 .outreach_description {
-	margin-top: 60px;
+	margin-top: 80px;
 
 }
 
@@ -141,13 +144,15 @@ iframe {
 }
 .support_link {
 	padding: 5px 10px 5px 10px;
+	-webkit-border: solid 1px;
+	-moz-border: solid 1px;
 	border: solid 1px;
 }
 blockquote {
 	border-left: 0px;
 }
 cite {
-	padding-bottom: 6%;
+	padding-bottom: 60px;
 }
 
 /*CONTACT*/
@@ -159,7 +164,7 @@ cite {
 }
 .contact_info {
 	margin-top: 60px;
-	padding-bottom: 6%;
+	margin-bottom: 60px;
 }
 #contact{
     padding:10px 0 10px;
