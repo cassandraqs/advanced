@@ -85,9 +85,11 @@ footer {
 .Cheryl {
 	border-radius: 119.5px;
 }
+.cheryl-left {
+	margin: 0 10px 0 10px;
+}
 .intro-advance {
-	margin-top: 24px;
-	margin-bottom: 50px;
+	margin: 24px 10px 50px 10px;
 }
 
 /*CALENDAR*/
@@ -124,7 +126,7 @@ iframe {
 	background-size: cover;
 }
 .outreach_description {
-	margin-top: 80px;
+	margin:80px 10px 50px 10px;
 
 }
 
